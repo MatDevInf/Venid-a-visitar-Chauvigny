@@ -1,0 +1,298 @@
+body
+{
+	background-image: url("Img/AA_Image%20-%20Château%20des%20aigles%20-%20Background.png");
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+h1
+{
+	color:red;
+	text-shadow: 5px 7px 3px orange;
+}
+
+h2
+{
+	color:orange;
+}
+
+ul
+{
+  list-style-position: inside;
+}
+
+
+
+
+
+/*Définition de la boîte contenant TOUS !*/
+#carte
+{
+	width: 800px;
+	margin:0 auto;
+	background-color: white;
+	text-align: center;
+	align-content: center;
+}
+
+/*Définition de la boîte contenant toutes les informations sur le logo*/
+#carte_img_logo
+{
+	max-width: 40%;
+	max-height: auto;
+	background-color: transparent;
+	align-content: left;
+
+	position: relative;
+	right: 80px;
+	top: 50px;
+}
+
+#img_logo
+{
+	max-width: 30%;
+	max-height: auto;
+}
+
+/*Définition de la boîte contenant le cadre et le titre de la page*/
+#carte_title_h1
+{
+	width: 500px;
+	margin:0 auto;
+	background-color: #FFFF00;
+
+	border: 3px solid red;
+	border-radius: 15px;
+
+	position: relative;
+	bottom: 20px;
+}
+
+
+
+
+
+/*Définition de la carte du groupe d'images qui se situe sous l'introduction(horizontal)*/
+#carte_grp_img_1_horizontal
+{
+	width: auto;
+	height: auto;
+	align-content: center;
+
+	display: inline-block;
+}
+
+/*Définition de l'image n°1 sous l'introduction contenant ses informations*/
+#img1
+{
+	max-width: 50%;
+	max-height: auto;
+
+	border: 3px solid lightgreen;
+	border-radius: 10px; 
+}
+
+/*Définition de la carte du groupe d'images qui se situe sous l'introduction(vertical)*/
+#carte_grp_img_1_vertical
+{
+	width: auto;
+	height: auto;
+	align-content: center;
+
+	position: vertical;
+}
+
+/*Définition de l'image n°2 sous l'introduction contenant ses informations*/
+#img2
+{
+	max-width: 20%;
+	max-height: auto;
+
+	border: 3px solid lightgreen;
+	border-radius: 10px; 
+}
+
+/*Définition de l'image n°3 sous l'introduction contenant ses informations*/
+#img3
+{
+	max-width: 30%;
+	max-height: auto;
+
+	border: 3px solid lightgreen;
+	border-radius: 10px; 
+}
+
+
+
+
+/*Définition de la boîte contenant la liste des des activitées à faire à Chauvigny*/
+#carte_texte_activite_liste
+{
+	width: 450px;
+	margin:0 auto;
+	background-color: white;
+	text-align: left;
+}
+
+/*Définition de la boîte contenant la liste des lieux à voir à Chauvigny*/
+#carte_texte_lieuxavoir_liste
+{
+	width: 450px;
+	margin:0 auto;
+	background-color: white;
+	text-align: left;
+}
+
+/*Définition de la boîte contenant la liste de l'image pour télécharger le pdf*/
+#img_téléchargement
+{
+	max-width: 10%;
+	max-height: auto;
+
+	border-radius: 10%;
+	border: 3px solid yellow;
+}
+
+
+
+
+
+
+#img_histoire_4
+{
+	max-width: 70%;
+	max-height: auto;
+
+	border-radius: 10px;
+	border: 2px solid lightblue;
+}
+
+
+
+/*Définition de la boîte contenant le 2 images pour l'histoire de Chauvigny(1)*/
+#carte_img_histoire_1
+{
+	width: auto;
+	height: auto;
+	align-content: center;
+
+	display: inline-block;
+}
+
+#img_histoire_5
+{
+	max-width: 40%;
+	max-height: auto;
+
+	border: 2px solid orange;
+	border-radius: 10px;
+}
+
+#img_histoire_6
+{
+	max-width: 40%;
+	max-height: auto;
+
+	border: 2px solid orange;
+	border-radius: 10px;
+}
+
+
+
+/*Définition de la boîte contenant le 2 images pour l'histoire de Chauvigny(2)*/
+#carte_img_histoire_2
+{
+	width: auto;
+	height: auto;
+	align-content: center;
+
+	display: inline-block;
+}
+
+#img_histoire_7
+{
+	max-width: 25%;
+	max-height: auto;
+
+	border: 2px solid yellow;
+	border-radius: 10px;
+}
+
+#img_histoire_8
+{
+	max-width: 27%;
+	max-height: auto;
+
+	border: 2px solid yellow;
+	border-radius: 10px;
+}
+
+#img_histoire_9
+{
+	max-width: 21%;
+	max-height: auto;
+
+	border: 2px solid yellow;
+	border-radius: 10px;
+}
+
+
+
+
+/*Définition de la boîte contenant le 2 images pour l'histoire de Chauvigny(3)*/
+#carte_img_histoire_3
+{
+	width: auto;
+	height: auto;
+	align-content: center;
+
+	display: inline-block;
+}
+
+#img_histoire_10
+{
+	max-width: 30%;
+	max-height: auto;
+
+	border: 2px solid lightblue;
+	border-radius: 10px;
+}
+
+#img_histoire_fleche
+{
+	max-width: 20%;
+	max-height: auto;
+}
+
+#img_histoire_11
+{
+	max-width: 100%;
+	max-height: auto;
+
+	border: 2px solid lightblue;
+	border-radius: 10px;
+}
+
+
+
+
+/*Définition de la boîte contenant la liste des dates Historiques de Chauvigny*/
+#carte_texte_histore_chauvigny_liste
+{
+	width: 600px;
+	margin:0 auto;
+	background-color: white;
+	text-align: left;
+}
+
+/*Définition de la boîte contenant les sources utilisées pour les informations du sites*/
+#carte_source
+{
+	width: auto;
+	margin:0 auto;
+	background-color: transparent;
+	text-align: left;
+
+	position: relative;
+	left: 10px;
+}
